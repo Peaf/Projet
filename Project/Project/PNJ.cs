@@ -10,10 +10,10 @@ namespace Project
 {
     public class PNJ
     {
-        static public Vector2 pnjPosition, origine;
-        static public Texture2D pnjTexture;
-        static public Rectangle pnjRectangle;
-        static int ligne = 0, colonne = 0, timerAnimation = 0;
+        public Vector2 pnjPosition, origine;
+        public Texture2D pnjTexture;
+        public Rectangle pnjRectangle;
+        int ligne = 0, colonne = 0, timerAnimation = 0;
 
         public PNJ(Texture2D newTexture, Vector2 newPosition, Rectangle newRectangle, Vector2 newOrigine)
         {
