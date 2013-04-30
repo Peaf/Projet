@@ -260,25 +260,25 @@ namespace Project
                 case "up":
 
                     ligne = 4;
-                    Rectenemy = new Rectangle((colonne - 1) * 111, (ligne - 1) * 62, 111, 62);
+                    Rectenemy = new Rectangle((colonne - 1) * Rectenemy.Width, (ligne - 1) * Rectenemy.Height, Rectenemy.Width, Rectenemy.Height);
                     break;
 
                 case "down":
 
                     ligne = 1;
-                    Rectenemy = new Rectangle((colonne - 1) * 111, (ligne - 1) * 62, 111, 62);
+                    Rectenemy = new Rectangle((colonne - 1) * Rectenemy.Width, (ligne - 1) * Rectenemy.Height, Rectenemy.Width, Rectenemy.Height);
                     break;
 
                 case "left":
 
                     ligne = 2;
-                    Rectenemy = new Rectangle((colonne - 1) * 111, (ligne - 1) * 62, 111, 62);
+                    Rectenemy = new Rectangle((colonne - 1) * Rectenemy.Width, (ligne - 1) * Rectenemy.Height, Rectenemy.Width, Rectenemy.Height);
                     break;
 
                 case "right":
 
                     ligne = 3;
-                    Rectenemy = new Rectangle((colonne - 1) * 111, (ligne - 1) * 62, 111, 62);
+                    Rectenemy = new Rectangle((colonne - 1) * Rectenemy.Width, (ligne - 1) * Rectenemy.Height, Rectenemy.Width, Rectenemy.Height);
                     break;
 
             }

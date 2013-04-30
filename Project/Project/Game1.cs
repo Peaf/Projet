@@ -118,8 +118,8 @@ namespace Project
             Fight.LoadContent(Content, spriteBatch, screenWidth, screenHeight);
 
             //Enemy
-            enemy1 = new Enemy(Content.Load<Texture2D>("Sprites/enemy"), new Vector2(800, 600), new Rectangle(815, 600, 50, 62), new Rectangle(0, 0, 30, 59), 200);
-            enemy2 = new Enemy(Content.Load<Texture2D>("Sprites/enemy"), new Vector2(350, 400), new Rectangle(365, 400, 50, 62), new Rectangle(0, 0, 30, 59), 200);
+            enemy1 = new Enemy(Content.Load<Texture2D>("Sprites/enemy"), new Vector2(800, 600), new Rectangle(815, 600, 50, 62), new Rectangle(0, 0, 111, 62), 200);
+            enemy2 = new Enemy(Content.Load<Texture2D>("Sprites/enemy"), new Vector2(350, 400), new Rectangle(365, 400, 50, 62), new Rectangle(0, 0, 111, 62), 200);
 
             //PNJ
             healer = new PNJ(Content.Load<Texture2D>("Sprites/Healer"), new Vector2(1220, 495), new Rectangle(1220, 495, 658, 696), new Vector2(1220, 495));
